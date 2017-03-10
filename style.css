@@ -1,0 +1,105 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #efeaea;
+}
+h1 h2 h3 h4 h5{
+	margin: 0 auto;
+}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+.header{
+	/*border: 2px solid red; */
+	width: 100%;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	margin-top: 24px;
+}
+.menu{
+	float: right;
+}
+.menu p{
+	color: gray;
+	margin-left: 438px;
+	
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	color: orange;
+	font-weight: bold;
+}
+.slider{
+	/*border: 2px solid red;*/
+	width: 100%;
+	background-image: url(img/slide_background.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.slider h1{
+	float: left;
+	color: white;
+	font-weight: bold;
+	font-size:55px;
+}
+.slider_img1{
+	float: right;
+	margin-top: 12px;
+}
+.slider_img2{
+	float: right;
+	margin-top: 58px;
+	padding-top: 15px;
+}
+.slider_last{
+	display: inline-block;
+	background-color: black;
+}
+.slider_last h4{
+	color: white;
+}
+.slider_last h3{
+	color: orange;
+	margin-top: -45px;
+	margin-left: 188px;
+}
+.slider_text{
+	/*border: 2px solid red;*/
+	width: 100%;
+}
+.txt{
+	width: 32%;
+	display: inline-block;
+	text-align: justify;
+}
+.portfolio{
+	/*border: 2px solid red;*/
+	width: 100%;
+
+}
+.img{
+	width: 24%;
+	display: inline-block;
+	margin-left: 6px;
+}
+.about{
+	border: 2px solid red;
+	width: 100%;
+	overflow: hidden;
+}
+.about_head{
+	float: left;
+	text-align: justify;
+	font-size:18px;
+}
+.about_last{
+	float: right;
+}
+.footer{
+	border: 2px solid red;
+}
